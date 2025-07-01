@@ -46,8 +46,31 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import moreMathIconURL from './moreMath/moreMath.png';
+
 export default [
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="More Math"
+                description="Name for the 'More Math' extension"
+                id="gui.extension.moreMath.name"
+            />
+        ),
+        extensionId: 'moreMath',
+        iconURL: moreMathIconURL,
+        insetIconURL: wedoInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="More math!"
+                description="Description for the 'Music' extension"
+                id="gui.extension.moreMath.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        
         name: (
             <FormattedMessage
                 defaultMessage="Music"
